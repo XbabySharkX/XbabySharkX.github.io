@@ -1,0 +1,138 @@
+body {
+    margin-bottom:20px;
+    background-image: url('123.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #27f6a4;
+    font-family: 'Share Tech Mono';
+}
+.bground {
+    background-color: rgba(0, 30, 38, 0.7);
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+  font-family: 'Fredoka One';
+  text-align: center;
+  font-weight: normal;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.greetings {
+  text-align: center;
+}
+.footer {
+font-family: 'Share Tech Mono';
+font-size: 17px;
+text-align: center;
+}
+.footer span{
+  font-family: 'Libre Barcode 39 Extended Text';
+  font-size: 30px;
+  text-align: center;
+}
+@keyframes kedipz {
+  0%{opacity:0}
+  10%{opacity:1}
+  20%{opacity:0}
+  30%{opacity:1}
+  40%{opacity:0}
+  50%{opacity:1}
+  60%{opacity:0}
+  70%{opacity:1}
+  80%{opacity:0}
+  90%{opacity:1}
+  95%{opacity:0}
+  100%{opacity:1}
+}
+a {
+    color:#27f6a4;
+    text-decoration:none;
+}
+a:hover, a:active {
+    opacity:1;
+    animation-name:kedipz;
+    animation-duration:0.5s
+}
+.barlink {
+    margin-bottom:10px;
+}
+.justified {
+    margin-top:15px;
+    margin-bottom:20px;
+    border-top:3px #27f6a4 solid;
+    border-bottom:3px #27f6a4 solid;
+    padding:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    width:80%;
+}
+.containerx {
+    width: 60%;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:20px;
+    border-top:3px #27f6a4 solid;
+    border-bottom:3px #27f6a4 solid;
+    padding:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.contentx {
+    text-align: justify;
+}
+h2 {
+    margin:0;
+}
+
+@media screen and (max-width: 500px) {
+    .containerx {
+      width: 80%;
+    }
+}
+
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fredoka One'), local('FredokaOne-Regular'), url(https://fonts.gstatic.com/s/fredokaone/v7/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v9/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Libre Barcode 39 Extended Text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Barcode 39 Extended Text'), local('LibreBarcode39ExtendedText-Regular'), url(https://fonts.gstatic.com/s/librebarcode39extendedtext/v8/eLG1P_rwIgOiDA7yrs9LoKaYRVLQ1YldrrOnnL7xPO4jNP6Me7gj.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Pompiere';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pompiere '), local('Pompiere-Regular'), url(https://fonts.gstatic.com/s/pompiere/v9/VEMyRoxis5Dwuyeov5Wq7DE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {cursor: url(https://cur.cursors-4u.net/cursors/cur-3/cur201.ani), url(https://cur.cursors-4u.net/cursors/cur-3/cur201.png), auto !important;}<a href="https://www.cursors-4u.com/cursor/2009/04/22/shiny-flashy-green-matrix.html" 
+    target="_blank" title="Shiny Flashy Green Matrix"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Shiny Flashy Green Matrix" 
+    style="position:absolute; top: 0px; right: 0px;" /></a>
+    
+.exmi{font-size:13em;font-family:Verdana,sans-serif;color:#000000;font-weight:bold;display:flex;position:fixed;z-index:13;letter-spacing:-8px;justify-content:center;align-items:center;width:100%;height:100%;}div::-moz-selection{color:#44d62c;background:#000000;}div::selection{color:#44d62c;background:#000000;}canvas{position:absolute;top:0;left:0;}
