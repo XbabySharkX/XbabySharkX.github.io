@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  display: grid;
+  background-color: #181a27;
+}
+
+.wrapper {
+  margin: auto;
+  padding: 20px;
+}
+
+.clock {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5%;
+  grid-row-gap: 0;
+}
+
+.number {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5%;
+  grid-row-gap: 0;
+}
+
+.digit {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+
+.digit__svg {
+  width: 100%;
+  height: auto;
+  stroke: #e88565;
+  stroke-width: 1px;
+  fill: none;
+  display: block;
+}
