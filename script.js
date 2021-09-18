@@ -70,4 +70,4 @@ window.oncontextmenu = function () {
             window.location.replace("https://pastebin.com/raw/Au1fCJHt");
                 return false;
             }
-        })
+        });
